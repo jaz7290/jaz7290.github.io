@@ -33,15 +33,23 @@
 						Hey, I'm Jaspreet Singh.
 					</h1>
 					<p class="lead-text">
-						Ph.D. student in <b>Information Retrieval</b> at the <b><a href="http://l3s.de/en">L3S Research Center</a></b> in Hannover, Germany. 
+						I'm a Ph.D. student at the <u><a href="http://l3s.de/en">L3S Research Center</a></u> in Hannover, Germany. 
+						
+					</p>
+					<p style="text-align: justify;">
+						My research is geared primarily towards <i>Information Retrieval</i> along with a healthy dose of Data Mining and Applied Machine Learning. 
+
+
+						I study user search behavior to first accurately model the user. I then apply the insights gained to investigate and develop systems better suited to satisfying the user's underlying information need. I've been fortunate to work with great researchers on new ranking algorithms, search user interfaces and evaluation metrics. I have a long-standing interest in exploratory search and its' evaluation, which I hope to address in my dissertation.
 					</p>
 
-					
+					 <!-- During this time, I've had to learn how to first accurately model the user's search intent, devise the appropriate evaluation frameowrk and then design systems and models to satisfy the intent for the given user. -->
 				</div>
 			</div>
 		</div>
+
 		
-		<div class="row highlight-row">
+		<!-- <div class="row highlight-row">
 			<div class="col-md-12 text-center">
 			
 				
@@ -59,7 +67,7 @@
 					</p>
 				
 			</div>
-		</div>
+		</div> -->
 		<br/>
 		<br/>
 		<div id ="pubs" class="row">
@@ -73,12 +81,13 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="">
-								<ul>
+								<ul style="list-style: none;">
 
 									<li>
 										<h4><a href="http://www.l3s.de/~singh/papers/camera-ready-cikm-singh.pdf">Discovering Entities with Just a Little Help from You</a></h4>
 										<p>Jaspreet Singh, Johannes Hoffart and Avishek Anand</p>
-										<p><span class="label label-warning">CIKM 2016</span></p>
+										<p><span class="label label-warning">CIKM 2016</span>
+										<span class="label label-info">Full Paper</span></p>
 									</li>
 									<li>
 										<h4><a href="http://www.l3s.de/~singh/papers/camera-ready-singh-sigir.pdf">Expedition: A Time-Aware Exploratory Search System Designed for Scholars</a></h4>
@@ -90,17 +99,26 @@
 										<h4><a href="http://research.nii.ac.jp/ntcir/workshop/OnlineProceedings12/pdf/ntcir/TEMPORALIA/03-NTCIR12-TEMPORALIA-FernandoZ.pdf">Applying Learning to Rank for Temporal Information Access: L3S at the NTCIR-12</a></h4>
 										<p>Fernando Zeon Trevor, Jaspreet Singh and Avishek Anand</p>
 										<p><span class="label label-warning">NTCIR12 2016</span>
+										<span class="label label-info">Full Paper</span></p>
 									</li>
 									
 									<li>
 										<h4><a href="http://www.l3s.de/~singh/papers/chiir-singh-l3s.pdf">History by Diversity: Helping Historians Search News Archives</a></h4>
 										<p>Jaspreet Singh, Wolfgang Nejdl, Avishek Anand</p>
-										<p><span class="label label-warning">CHIIR 2016</span></p>
+										<p><span class="label label-warning">CHIIR 2016</span>
+										<span class="label label-info">Full Paper</span></p>
+									</li>
+									<li>
+										<h4><a href="http://www2016.net/proceedings/companion/p203.pdf">The Knowledge Awakens: Keeping Knowledge Bases Fresh with Emerging Entities</a></h4>
+										<p>Johannes Hoffart, Dragan Milchevski, Gerhard Weikum, Avishek Anand, and Jaspreet Singh.</p>
+										<p><span class="label label-warning">WWW 2016</span>
+										<span class="label label-info">Demo</span></p>
 									</li>
 									<li>
 										<h4><a href="http://www.l3s.de/~singh/papers/singh-websci.pdf">Exploring Long Running News Stories using Wikipedia</a></h4>
 										<p>Jaspreet Singh, Abhijit Anand, Vinay Setty, Avishek Anand</p>
-										<p><span class="label label-warning">WebSci 2015</span></p>
+										<p><span class="label label-warning">WebSci 2015</span>
+										<span class="label label-info">Poster</span></p>
 									</li>
 									<li>
 										<h4>LearnWeb-OER: Improving Accessibility of Open Educational Resources</h4>
@@ -123,6 +141,7 @@
 			</div>
 		</div>
 		<br/>
+		<hr />
 		<br/>
 		<div id ="demos" class="row">
 			<div class="col-md-12">
@@ -149,6 +168,42 @@
 								</div>
 							</div>
 						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img alt="" src="img/wikiup.png" />
+								<div class="caption">
+									<h3>
+										Wikipedia Curation Assistant  
+									</h3>
+									<p>
+										Based on the recently published <a href="http://www.l3s.de/~fetahu/publications/fetahu_cikm2015.pdf">paper</a> by Fetahu, Anand and Markert, we developed a simple interface to help curators identify potential Wikipedia articles (and the corresponding section) that need updating based on the current news. 
+									</p>
+									<p>
+										<a class="btn btn-jaz btn-sm" href="http://pharos.l3s.uni-hannover.de:7080/WikiUpdate/">Curation Assistant</a> 
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="thumbnail">
+								<img alt="" src="img/newsex.png" />
+								<div class="caption">
+									<h3>
+										News Ex
+									</h3>
+									
+									<p>
+										Exploring a long running news story can be daunting when you have access to only a news archive. In this demo, we show the canonicalization of news articles from the GDelt dataset to a Wikipedia article about a long running news story and visualize the edit history in conjunction with the publication history of the retrieved articles to provide the user with new insights.
+									</p>
+									<p>
+										<a class="btn btn-jaz btn-sm" href="http://pharos.l3s.uni-hannover.de:7080/WikiNewsSearch/#start">News Ex Demo</a> 
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
 						<div class="col-md-4">
 							<div class="thumbnail">
 								<img alt="" src="img/tf.png" />
@@ -181,26 +236,8 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="thumbnail">
-								<img alt="" src="img/newsex.png" />
-								<div class="caption">
-									<h3>
-										News Ex
-									</h3>
-									
-									<p>
-										Exploring a long running news story can be daunting when you have access to only a news archive. In this demo, we show the canonicalization of news articles from the GDelt dataset to a Wikipedia article about a long running news story and visualize the edit history in conjunction with the publication history of the retrieved articles to provide the user with new insights.
-									</p>
-									<p>
-										<a class="btn btn-jaz btn-sm" href="http://pharos.l3s.uni-hannover.de:7080/WikiNewsSearch/#start">News Ex Demo</a> 
-									</p>
 
-								</div>
-							</div>
-						</div>
+						
 						<div class="col-md-4">
 							<div class="thumbnail">
 								<img alt="" src="img/lw.png" />
@@ -217,28 +254,14 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4">
-							<div class="thumbnail">
-								<img alt="" src="img/wikiup.png" />
-								<div class="caption">
-									<h3>
-										Wikipedia Curation Assistant  
-									</h3>
-									<p>
-										Based on the recently published <a href="http://www.l3s.de/~fetahu/publications/fetahu_cikm2015.pdf">paper</a> by Fetahu, Anand and Markert, we developed a simple interface to help curators identify potential Wikipedia articles (and the corresponding section) that need updating based on the current news. 
-									</p>
-									<p>
-										<a class="btn btn-jaz btn-sm" href="#">Curation Assistant</a> 
-									</p>
-								</div>
-							</div>
-						</div>
+						
 					</div>
 				</div>
 				
 			</div>
 		</div>
 		<br/>
+		<hr />
 		<br/>
 		<div class="row">
 			<div class="col-md-12 text-center">
@@ -261,8 +284,9 @@
 			</div>
 		</div>
 		<br></br>
-		<br></br>
-		<br></br>
+		<br/>
+		<hr />
+		<br/>
 		<div class="row">
 			<div class="col-md-12 text-center container-compact">
 			
@@ -285,6 +309,7 @@
 			</div>
 		</div>
 		<br/>
+		<hr />
 		<br/>
 		<div id="education" class="row">
 			<div class="col-md-12">
@@ -325,7 +350,9 @@
 				</div>
 			</div>
 		</div>
-		<br/><br/><br/>
+		<br/>
+		<hr />
+		<br/>
 		<div class="row text-center hidden-xs hidden-sm">
 			<div class="col-md-12">
 				<div class="container container-compact">
